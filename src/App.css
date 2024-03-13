@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex-flow: column wrap;
+  place-content: center;
+
+  margin: 20px;
+}
+
+.mainTitle {
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+}
+
+.subtitle {
+  text-align: center;
+  color: aliceblue;
+  position: relative;
+  top: -12px;
+}
+
+.mainContainer {
+  margin: 0 auto;
+  width: 80vw;
+  min-width: 375px;
+  max-width: 500px;
+  display: flex;
+  flex-flow: column wrap;
+  border-radius: 16px;
+  box-shadow: 8px 8px 5px rgb(48, 0, 32);
+}
+
+@media (max-width: 450px) {
+  .mainContainer {
+    min-width: 300px;
+  }
+}

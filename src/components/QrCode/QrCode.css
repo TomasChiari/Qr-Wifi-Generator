@@ -1,0 +1,13 @@
+.qrContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 5px;
+
+  padding-bottom: 15px;
+}
+
+.qr-code {
+  border-radius: 15px;
+}

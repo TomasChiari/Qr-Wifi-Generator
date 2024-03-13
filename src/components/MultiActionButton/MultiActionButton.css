@@ -1,0 +1,42 @@
+.mab {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.mab__button {
+  border: 0px solid rgb(100, 141, 237);
+  background-color: rgb(100, 141, 237);
+}
+
+.mab__button--primary {
+  width: 80px;
+}
+
+.mab__button--secondary {
+  width: 40px;
+
+  display: grid;
+  place-content: center;
+}
+
+.mab__more-content {
+  position: absolute;
+  top: 100%;
+
+  display: flex;
+  flex-flow: column wrap;
+
+  width: 120px;
+  visibility: hidden;
+}
+
+.mab__more-content--visible {
+  visibility: visible;
+}
+
+.mab__more-content .mab__button {
+  border-top: 1px solid rgb(49, 77, 144);
+  padding: 2px 0 3px 3px;
+  text-align: start;
+}
